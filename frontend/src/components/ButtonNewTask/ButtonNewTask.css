@@ -1,0 +1,18 @@
+.button-newTask {
+  background-color: #54b4ac;
+  width: 25vh;
+  height: 50%;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 111vh;
+  display: flex;
+  align-items: center;
+  font-size: 3.2vh;
+  border: 0.5vh solid #423a2c;
+  border-radius: 2vh;
+}
+
+.img-newTask {
+  width: 9vh;
+}

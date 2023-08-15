@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  
+}
+
+nav{
+  display: flex;
+  height: 20vh;
+  width: 100vh;
+  align-items: center;
+}
+
+.menu {
+  background-color: #ebe5eb;
+  min-height: 100vh;
+}
+
+.taskP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

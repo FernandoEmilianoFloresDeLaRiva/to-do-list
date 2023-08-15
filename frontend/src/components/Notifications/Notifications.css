@@ -1,0 +1,40 @@
+.bell-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  left: 6.7vh;
+}
+
+.bell-img {
+  width: 8.5vh;
+}
+
+.container-content{
+  display: block;
+  position: absolute;
+  width: 10%;
+  overflow: auto;
+  padding: 0.8vh;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.content{
+  border-radius: 2vh;
+  border: 0.3vh solid #c9cccc;
+  background-color: #54b4ac;
+  color: white;
+  text-align: center;
+}
+
+@keyframes rotate {from {transform: rotate(-20deg);}
+    to {transform:rotate(30deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(-20deg);}
+  to {-webkit-transform: rotate(30deg);}}
+.img-bell-animation{
+    animation: 0.5s rotate alternate infinite;
+    transform-origin: 30% 30%;
+    width: 8.5vh;
+}

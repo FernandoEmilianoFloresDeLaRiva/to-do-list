@@ -1,0 +1,42 @@
+.container-taskC {
+  border: 0.3vh solid black;
+  border-radius: 1vh;
+  width: 30vh;
+  min-height: 10vh;
+  text-align: center;
+  background-color: #8fc9b9;
+  word-wrap: break-word;
+  margin-left: 3vh;
+  margin-bottom: 5vh;
+}
+
+.container-taskP {
+  border: 0.3vh solid black;
+  border-radius: 1vh;
+  width: 30vh;
+  min-height: 10vh;
+  text-align: center;
+  background-color: #ab5c72;
+  word-wrap: break-word;
+  margin-left: 3vh;
+  margin-bottom: 5vh;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  padding: 0.5rem;
+}
+
+div button {
+  background-color: transparent;
+  border: none;
+}
+
+div button img {
+  width: 5vh;
+  cursor: pointer;
+}

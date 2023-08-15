@@ -1,0 +1,27 @@
+.status{
+    position: relative;
+    left: 69vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.completed{
+    background-color: #8fc9b9;
+    height: 2vh;
+    width: 2vh;
+    border: 0.3vh solid black;
+    margin-right: 1vh;
+}
+
+.pending{
+    background-color: #ab5c72;
+    height: 2vh;
+    width: 2vh;
+    border: 0.3vh solid black;
+    margin-right: 1vh;
+}
+
+.text-status{
+    margin-right: 5vh;
+}
